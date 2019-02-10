@@ -42,3 +42,28 @@ span {
     font-size: 30px;
     font-weight: bold;
 }
+
+label span {
+    font-size: 14px;
+    display: inline-block;
+    text-align: left;
+    width:  130px;
+    font-weight: normal;
+}
+
+label input {
+    display: inline-block;
+    text-align: left;
+}
+
+form {
+    padding: 10px;
+}
+
+.dummy-blue {
+    background-color: turquoise;
+}
+
+.dummy-purple {
+    background-color: blueviolet;
+}
