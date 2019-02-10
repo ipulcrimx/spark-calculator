@@ -3,6 +3,7 @@ import {Container, Row, Col } from 'react-bootstrap';
 
 import InputForm from './components/InputForm';
 import Chart from './components/Chart';
+import Graph from './components/Graph'
 import './App.css';
 
 class App extends Component 
@@ -17,6 +18,7 @@ class App extends Component
                             <InputForm />
                         </Col>
                         <Col md={8} className="dummy-blue">
+                            <Graph />
                             <Chart />
                         </Col>
 

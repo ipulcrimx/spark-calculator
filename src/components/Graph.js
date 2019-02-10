@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { Pie } from 'react-chartjs-2';
+import { Line } from "react-chartjs-2";
 import {MDBContainer} from 'mdbreact';
 
 class Graph extends Component
 {
     constructor(props)
     {
+        super(props);
+        
         this.state = 
         {
             dataLine: 
