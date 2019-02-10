@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/spark-calculator/precache-manifest.8127434df99c50db4b239b0c22e1f4d1.js"
+  "/spark-calculator/precache-manifest.2f411c4e06f054e949bb6bedf1f2add0.js"
 );
 
 workbox.clientsClaim();

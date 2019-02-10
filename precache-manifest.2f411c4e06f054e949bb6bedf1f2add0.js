@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/spark-calculator/static/js/runtime~main.efec5baf.js"
   },
   {
-    "revision": "890bb6bd73f2eed1fd6b",
-    "url": "/spark-calculator/static/js/main.890bb6bd.chunk.js"
+    "revision": "8c53fe472e899451786e",
+    "url": "/spark-calculator/static/js/main.8c53fe47.chunk.js"
   },
   {
     "revision": "9e19ce0b8c3d9d56f31a",
     "url": "/spark-calculator/static/js/1.9e19ce0b.chunk.js"
   },
   {
-    "revision": "890bb6bd73f2eed1fd6b",
-    "url": "/spark-calculator/static/css/main.6dfea86c.chunk.css"
+    "revision": "8c53fe472e899451786e",
+    "url": "/spark-calculator/static/css/main.e6606375.chunk.css"
   },
   {
-    "revision": "59c7d02a6a54db84fa697c04a8bd985d",
+    "revision": "e7ca5eb84dc26770cf856ac821b592b2",
     "url": "/spark-calculator/index.html"
   }
 ];

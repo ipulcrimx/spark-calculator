@@ -1,14 +1,14 @@
 {
-  "main.css": "/spark-calculator/static/css/main.6dfea86c.chunk.css",
-  "main.js": "/spark-calculator/static/js/main.890bb6bd.chunk.js",
-  "main.js.map": "/spark-calculator/static/js/main.890bb6bd.chunk.js.map",
+  "main.css": "/spark-calculator/static/css/main.e6606375.chunk.css",
+  "main.js": "/spark-calculator/static/js/main.8c53fe47.chunk.js",
+  "main.js.map": "/spark-calculator/static/js/main.8c53fe47.chunk.js.map",
   "static/js/1.9e19ce0b.chunk.js": "/spark-calculator/static/js/1.9e19ce0b.chunk.js",
   "static/js/1.9e19ce0b.chunk.js.map": "/spark-calculator/static/js/1.9e19ce0b.chunk.js.map",
   "runtime~main.js": "/spark-calculator/static/js/runtime~main.efec5baf.js",
   "runtime~main.js.map": "/spark-calculator/static/js/runtime~main.efec5baf.js.map",
   "static/media/logo.svg": "/spark-calculator/static/media/logo.5d5d9eef.svg",
-  "static/css/main.6dfea86c.chunk.css.map": "/spark-calculator/static/css/main.6dfea86c.chunk.css.map",
+  "static/css/main.e6606375.chunk.css.map": "/spark-calculator/static/css/main.e6606375.chunk.css.map",
   "index.html": "/spark-calculator/index.html",
-  "precache-manifest.8127434df99c50db4b239b0c22e1f4d1.js": "/spark-calculator/precache-manifest.8127434df99c50db4b239b0c22e1f4d1.js",
+  "precache-manifest.2f411c4e06f054e949bb6bedf1f2add0.js": "/spark-calculator/precache-manifest.2f411c4e06f054e949bb6bedf1f2add0.js",
   "service-worker.js": "/spark-calculator/service-worker.js"
 }
