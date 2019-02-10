@@ -57,6 +57,13 @@ form {
     padding: 10px;
 }
 
+.side-div {
+    background-color: #dedede;
+    padding: 5px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
 .dummy-blue {
     background-color: turquoise;
     padding: 5px;

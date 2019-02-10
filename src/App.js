@@ -15,7 +15,7 @@ class App extends Component
                 <Container fluid="true">
                     <Row>
                         <Col md={3}>
-                            <div className="dummy-blue">
+                            <div className="side-div">
                                 <InputForm />
                             </div>
                         </Col>
@@ -33,7 +33,7 @@ class App extends Component
                             </Row>
                         </Col>
                         <Col md={3}>
-                            <div className="dummy-blue">
+                            <div className="side-div">
                                 <p>
                                     This will be notification div
                                 </p>
