@@ -1,0 +1,98 @@
+.Hightlight-Holder
+{
+    margin: 5px;
+}
+
+.HightComponent
+{
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 0px rgba(0, 0, 0, .05);
+}
+
+.hightlight-icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    background: #eee;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.hightlight-info {
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+span {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label span {
+    font-size: 14px;
+    display: inline-block;
+    text-align: left;
+    width:  130px;
+    font-weight: normal;
+}
+
+label input {
+    display: inline-block;
+    text-align: left;
+}
+
+form {
+    padding: 10px;
+}
+
+.side-div {
+    background-color: #dedede;
+    padding: 5px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.dummy-blue {
+    background-color: turquoise;
+    padding: 5px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.dummy-purple {
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.dummy-white {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.input-form {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.graph {
+    min-height: 300px;
+    max-height: 750px;
+
+    min-width: 550px;
+    max-width: 800px;
+}
