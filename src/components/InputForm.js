@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Form, Row, Col, FormControl, FormCheck, Button} from 'react-bootstrap';
+import {Form, Col, Button} from 'react-bootstrap';
 import '../css/components.css';
 
 class InputForm extends Component
@@ -19,7 +19,7 @@ class InputForm extends Component
     render()
     {
         return (
-            <Form>
+            <Form className="input-form">
                 <Form.Group as={"Row"}>
                     <Form.Label as="Legend" column>
                         Update Type:
@@ -50,7 +50,20 @@ class InputForm extends Component
                     </Col>
                 </Form.Group>
                 <br />
-                
+                <Form.Group>
+                    <Form.Label>Crystal</Form.Label>
+                    <Form.Control size="sm" type="number" placeholder="ex: 300" />
+                </Form.Group>
+
+                <Form.Group>
+                    <Form.Label>Tickets</Form.Label>
+                    <Form.Control size="sm" type="number" placeholder="ex: 10" />
+                </Form.Group>
+
+                <Form.Group>
+                    <Form.Label>Ten Draw Ticket</Form.Label>
+                    <Form.Control size="sm" type="number" placeholder="ex: 1" />
+                </Form.Group>
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
         );

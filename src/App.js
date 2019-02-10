@@ -9,13 +9,18 @@ class App extends Component
     render()
     {
         return (
-            <div>
+            <div className="main-content">
                 <Container className="Hightlight-Holder clearfix">
                     <Row>
-                        <Col lg={4} className="dummy-purple">
+                        <Col lg={3} className="dummy-purple">
                             <InputForm />
                         </Col>
                         <Col md={8} className="dummy-blue">
+                        Halo kaka!
+                        </Col>
+
+                        <Col lg={1} className="dummy-purple">
+                            testing
                         </Col>
                     </Row>
                 </Container>
