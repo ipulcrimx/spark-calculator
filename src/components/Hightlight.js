@@ -7,7 +7,7 @@ class Hightlight extends Component
     render()
     {
         return (
-            <Container className="Hightlight-Holder clearfix">
+            <Container fluid="true" className="Hightlight-Holder clearfix">
                 <Row>
                     <Col md={3}><CrystalHolder /></Col>
                     <Col md={3}><TicketHolder /></Col>
@@ -21,7 +21,7 @@ class Hightlight extends Component
 
 const CrystalHolder = ()=>
 <div className="HightComponent">
-    <span className="hightlight-icon st-red">
+    <span className="hightlight-icon">
     {
         // image here...
     }
@@ -34,7 +34,7 @@ const CrystalHolder = ()=>
 
 const TicketHolder = ()=>
 <div className="HightComponent">
-    <span className="hightlight-icon st-red">
+    <span className="hightlight-icon">
     {
         // image here...
     }
@@ -47,7 +47,7 @@ const TicketHolder = ()=>
 
 const TenDrawTicket = ()=>
 <div className="HightComponent">
-    <span className="hightlight-icon st-red">
+    <span className="hightlight-icon">
     {
         // image here...
     }
@@ -60,7 +60,7 @@ const TenDrawTicket = ()=>
 
 const TotalDrawHolder = ()=>
 <div className="HightComponent">
-    <span className="hightlight-icon st-red">
+    <span className="hightlight-icon">
     {
         // image here...
     }
