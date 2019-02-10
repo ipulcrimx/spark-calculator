@@ -24,30 +24,11 @@ class InputForm extends Component
                     <Form.Label as="Legend" column>
                         Update Type:
                     </Form.Label>
-                    <Col sm={10}>
-                        <Form.Check
-                            custom
-                            type="radio"
-                            label="Update Status"
-                            name="formRadios"
-                            id="formRadios1" />
-                    </Col>
-                    <Col sm={10}>
-                        <Form.Check
-                            custom
-                            type="radio"
-                            label="Save up"
-                            name="formRadios"
-                            id="formRadios2" />
-                    </Col>
-                    <Col sm={10}>
-                        <Form.Check
-                            custom
-                            type="radio"
-                            label="Chucked"
-                            name="formRadios"
-                            id="formRadios3" />
-                    </Col>
+                    <Form.Control size="sm" as="select">
+                        <option>Status Update</option>
+                        <option>Save Up</option>
+                        <option>Chucked</option>
+                    </Form.Control>
                 </Form.Group>
                 <br />
                 <Form.Group>

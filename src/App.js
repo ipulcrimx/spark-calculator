@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Row, Col } from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 import InputForm from './components/InputForm';
 import Chart from './components/Chart';
@@ -12,18 +12,32 @@ class App extends Component
     {
         return (
             <div className="main-content">
-                <Container className="Hightlight-Holder clearfix">
+                <Container fluid="true">
                     <Row>
-                        <Col lg={3} className="dummy-purple">
-                            <InputForm />
+                        <Col md={3}>
+                            <div className="side-div">
+                                <InputForm />
+                            </div>
                         </Col>
-                        <Col md={8} className="dummy-blue">
-                            <Graph />
-                            <Chart />
+                        <Col md={6}>
+                            <Row className="dummy-white">
+                                <Col xl={8}>
+                                    <h2>Spark Calculator</h2>
+                                </Col>
+                                <Col xl={8} className="graph">
+                                    <Graph />
+                                </Col>
+                                <Col xl={8} className="graph">
+                                    <Chart />
+                                </Col>
+                            </Row>
                         </Col>
-
-                        <Col lg={1} className="dummy-purple">
-                            testing
+                        <Col md={3}>
+                            <div className="side-div">
+                                <p>
+                                    This will be notification div
+                                </p>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

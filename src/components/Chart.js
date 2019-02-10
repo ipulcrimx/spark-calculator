@@ -39,7 +39,7 @@ class Chart extends Component
     {
         return (
             <MDBContainer>
-                <h3 className="mt-5">Spark Chart</h3>
+                <h5 className="mt-5">Draw Chart</h5>
                 <Pie data={this.state.dataPie} option={{ responsive: true}} />
             </MDBContainer>
         );
