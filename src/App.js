@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Container, Row, Col } from 'react-bootstrap';
 
 import InputForm from './components/InputForm';
+import Chart from './components/Chart';
 import './App.css';
 
 class App extends Component 
@@ -16,7 +17,7 @@ class App extends Component
                             <InputForm />
                         </Col>
                         <Col md={8} className="dummy-blue">
-                        Halo kaka!
+                            <Chart />
                         </Col>
 
                         <Col lg={1} className="dummy-purple">
