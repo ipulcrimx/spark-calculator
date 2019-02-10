@@ -35,7 +35,7 @@ class App extends Component
                         <Col md={3}>
                             <div className="side-div">
                                 <p>
-                                    This will be notification div
+                                    This will be notification or history div
                                 </p>
                             </div>
                         </Col>
