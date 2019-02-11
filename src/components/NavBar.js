@@ -10,7 +10,7 @@ class NavBar extends Component
     return (
       <div>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home"><img src={logo} alt="logo" className="Logo-Navbar"/>React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home"><img src={logo} alt="logo" className="Logo-Navbar"/>Spark Calculator v0.1</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

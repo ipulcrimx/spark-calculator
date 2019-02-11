@@ -1,6 +1,6 @@
 .Hightlight-Holder
 {
-    margin: 5px;
+    margin-top: 10px;
 }
 
 .HightComponent
@@ -62,24 +62,30 @@ form {
     padding: 5px;
     padding-bottom: 15px;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .dummy-blue {
     background-color: turquoise;
     padding: 5px;
+    margin-bottom: 10px;
     padding-bottom: 15px;
     border-radius: 5px;
 }
 
 .dummy-purple {
     background-color: blueviolet;
-    padding: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
 .dummy-white {
     background-color: #fff;
-    padding: 15px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -89,10 +95,3 @@ form {
     padding-right: 15px;
 }
 
-.graph {
-    min-height: 300px;
-    max-height: 750px;
-
-    min-width: 550px;
-    max-width: 800px;
-}
