@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Form, Col, Button} from 'react-bootstrap';
+import {Form, Button} from 'react-bootstrap';
 import '../css/components.css';
 
 class InputForm extends Component
@@ -20,17 +20,6 @@ class InputForm extends Component
     {
         return (
             <Form className="input-form">
-                <Form.Group as={"Row"}>
-                    <Form.Label as="Legend" column>
-                        Update Type:
-                    </Form.Label>
-                    <Form.Control size="sm" as="select">
-                        <option>Status Update</option>
-                        <option>Save Up</option>
-                        <option>Chucked</option>
-                    </Form.Control>
-                </Form.Group>
-                <br />
                 <Form.Group>
                     <Form.Label>Crystal</Form.Label>
                     <Form.Control size="sm" type="number" placeholder="ex: 300" />
